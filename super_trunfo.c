@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main(){
-    printf("carta 1\n");
+int main (){
 
     char estado1 = 'A';
     char codigo1[20] = "A01";
