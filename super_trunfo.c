@@ -4,67 +4,67 @@ int main()
 {
     printf("carta 1\n");
 
-    char estado1;
-    char codigo1;
-    char nome1;
-    int populacao1;
-    float area1;
-    float pib1;
-    int pontosturisticos1;
+    char estadoA;
+    char codigoA;
+    char nomeA;
+    int populacaoA;
+    float areaA;
+    float pibA;
+    int pontosturisticosA;
    
 
     printf("estado: ");
-    scanf("%s", &estado1);
+    scanf("%s", &estadoA);
     printf("codigo da carta: ");
-    scanf("%s", &codigo1);
+    scanf("%s", &codigoA);
     printf("nome da cidade: ");
-    scanf("%s", &nome1);
+    scanf("%s", &nomeA);
     printf("população: ");
-    scanf("%d", &populacao1);
+    scanf("%d", &populacaoA);
     printf("área em Km: ");
-    scanf("%f", &area1);
+    scanf("%f", &areaA);
     printf("pib: ");
-    scanf("%f", &pib1);
+    scanf("%f", &pibA);
     printf("pontos turísticos: ");
-    scanf("%d", &pontosturisticos1);
+    scanf("%d", &pontosturisticosA);
 
-    float densidadedemografica1 = populacao1 / area1;
-    float pibpercapita1 = pib1 / populacao1;
-    printf("A densidade demográfica é: %.2f\n", densidadedemografica1);
-    printf("A pibpercapita é : %.2f", pibpercapita1);
-   
-    printf("%f\n", pibpercapita1);
+    double densidadedemograficaA = populacaoA / areaA;
+    double pibpercapitaA = pibA / populacaoA;
+
+    printf("densidade demográfica : %.2f\n", densidadedemograficaA);
+    printf("pib per capita : %.2f\n", pibpercapitaA);
 
     printf("\n");
 
-    char estado2;
-    char codigo2;
-    char nome2;
-    int populacao2;
-    float area2;
-    float pib2;
-    int pontosturisticos2;
+    char estadoB;
+    char codigoB;
+    char nomeB;
+    int populacaoB;
+    float areaB;
+    float pibB;
+    int pontosturisticosB;
    
 
     printf("carta 2\n");
 
     printf("estado: ");
-    scanf("%s", &estado2);
+    scanf("%s", &estadoB);
     printf("codigo da carta: ");
-    scanf("%s", &codigo2);
+    scanf("%s", &codigoB);
     printf("nome da cidade: ");
-    scanf("%s", &nome2);
+    scanf("%s", &nomeB);
     printf("população: ");
-    scanf("%d", &populacao2);
+    scanf("%d", &populacaoB);
     printf("área em Km: ");
-    scanf("%f", &area2);
+    scanf("%f", &areaB);
     printf("pib:");
-    scanf("%f", &pib2);
+    scanf("%f", &pibB);
     printf("pontos turísticos: ");
-    scanf("%d", &pontosturisticos2);
+    scanf("%d", &pontosturisticosB);
 
-    float densidadedemografica2 = populacao2 / area2;
-    float pibpercapita2 = pib2 / populacao2;
-    printf("A densidade demográfica é: %.2f\n", densidadedemografica2);
-    printf("A pibpercapita é : %.2f", pibpercapita2);
+    double densidadedemograficaB = populacaoB / areaB;
+    double pibpercapitaB = pibB / populacaoB;
+
+    printf("densidade demográfica : %.2f\n", densidadedemograficaB);
+    printf("pib per capita : %.2f\n", pibpercapitaB);
 }
