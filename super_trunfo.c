@@ -27,13 +27,13 @@ int main()
     printf("pontos turísticos: ");
     scanf("%d", &pontosturisticosA);
 
-    double densidadedemograficaA = populacaoA / areaA;
+    double densidadepopulacionalA = populacaoA / areaA;
     double pibpercapitaA = pibA / populacaoA;
 
-    printf("densidade demográfica : %.2f\n", densidadedemograficaA);
+    printf("densidade demográfica : %.2f\n", densidadepopulacionalA);
     printf("pib per capita : %.2f\n", pibpercapitaA);
 
-    double superpoderA = populacaoA + areaA + pibA + densidadedemograficaA + pibpercapitaA;
+    double superpoderA = populacaoA + areaA + pibA + densidadepopulacionalA + pibpercapitaA;
     printf("super poder : %.2f\n", superpoderA);
 
     printf("\n");
@@ -63,13 +63,13 @@ int main()
     printf("pontos turísticos: ");
     scanf("%d", &pontosturisticosB);
 
-    double densidadedemograficaB = populacaoB / areaB;
+    double densidadepopulacionalB = populacaoB / areaB;
     double pibpercapitaB = pibB / populacaoB;
 
-    printf("densidade demográfica : %.2f\n", densidadedemograficaB);
+    printf("densidade populacional : %.2f\n", densidadepopulacionalB);
     printf("pib per capita : %.2f\n", pibpercapitaB);
 
-    double superpoderB = populacaoB + areaB + pibB + densidadedemograficaB + pibpercapitaB;
+    double superpoderB = populacaoB + areaB + pibB + densidadepopulacionalB + pibpercapitaB;
     printf("super poder : %.2f\n", superpoderB);
 
     return 0;
