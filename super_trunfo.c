@@ -12,7 +12,6 @@ int main()
     float pibA;
     int pontosturisticosA;
    
-
     printf("estado: ");
     scanf("%s", &estadoA);
     printf("codigo da carta: ");
@@ -34,6 +33,9 @@ int main()
     printf("densidade demográfica : %.2f\n", densidadedemograficaA);
     printf("pib per capita : %.2f\n", pibpercapitaA);
 
+    double superpoderA = populacaoA + areaA + pibA + densidadedemograficaA + pibpercapitaA;
+    printf("super poder : %.2f\n", superpoderA);
+
     printf("\n");
 
     char estadoB;
@@ -44,7 +46,6 @@ int main()
     float pibB;
     int pontosturisticosB;
    
-
     printf("carta 2\n");
 
     printf("estado: ");
@@ -67,4 +68,9 @@ int main()
 
     printf("densidade demográfica : %.2f\n", densidadedemograficaB);
     printf("pib per capita : %.2f\n", pibpercapitaB);
+
+    double superpoderB = populacaoB + areaB + pibB + densidadedemograficaB + pibpercapitaB;
+    printf("super poder : %.2f\n", superpoderB);
+
+    return 0;
 }
